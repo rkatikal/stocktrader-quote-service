@@ -20,7 +20,7 @@ metadata:
   name: acmetrader-stock-quote
 
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: acmetrader-stock-quote
